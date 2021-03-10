@@ -1,0 +1,32 @@
+@echo off
+title Przygody zebrastego!
+
+:Lobby
+echo Przygody na Youtube!
+echo.
+echo graj - 1
+echo o nas - 2
+echo ustawienia - 3
+echo wyjscie - 4
+
+set /p wybieram:=wybieram:
+if %wybieram:%==1 goto :gra1
+if %wybieram:%==2 goto :onas
+if %wybieram:%==3 goto :ustawienia
+if %wybieram:%==4 goto :wyjscie
+
+:gra1
+
+
+
+:onas
+producent - zebrasty YT
+programowal - zebrasty YT
+scenarzysta - zebrasty YT
+
+:ustawienia
+
+
+:wyjscie
+cls
+exit
